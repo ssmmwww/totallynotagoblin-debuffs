@@ -1,0 +1,34 @@
+{
+  "id": "token-condition-badges",
+  "title": "Token Condition Badges",
+  "description": "Shows dnd5e conditions as large badges along the bottom of each token, sized to the token, with a short entrance animation when a condition is applied. Foundry's own small status icons stay as they are.",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "ssmmwww",
+      "url": "https://github.com/ssmmwww"
+    }
+  ],
+  "url": "https://github.com/ssmmwww/totallynotagoblin-debuffs",
+  "bugs": "https://github.com/ssmmwww/totallynotagoblin-debuffs/issues",
+  "readme": "README.md",
+  "license": "LICENSE",
+  "manifest": "https://github.com/ssmmwww/totallynotagoblin-debuffs/releases/latest/download/module.json",
+  "download": "https://github.com/ssmmwww/totallynotagoblin-debuffs/releases/download/v1.0.0/module.zip",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "13.351"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/condition-badges.js"
+  ]
+}
